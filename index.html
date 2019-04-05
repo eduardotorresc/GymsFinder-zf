@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+  <div class="grid-container">
+
+    <header class="texto"><!-- Header -->
+      <img  src="img/Logo.png" alt="" class="logo">
+      <div class="titulo">
+        <h1 id="stilo" class="text">GYMS FINDER</h1>
+        <span class="text subheader">Buscador de Gimnasios en Lima</span>
+      </div>
+    </header><!-- Header -->
+
+    <div class="top-bar barra"><!-- Top bar -->
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text index"><a href="index.html">GYMS Finder</a></li>
+          <li><a href="#">Realice su búsqueda</a></li>
+          <li>
+            <div>
+              <ul class="menu">
+                <li><input type="search" placeholder="Buscar"></li>
+                <li><button type="button" class="button">Buscar</button></li>
+              </ul>
+            </div>
+          </li>
+          <li class="top-bar-right"><a href="#">Conseguir cupón</a></li>
+          <li><a href="#">¿Tiene un gimnasio?</a></li>
+        </ul>
+      </div>
+    </div><!-- Top bar -->
+
+    <div class="grid-x grid-padding-x"><!-- grid -->
+      <section class="large-3 medium-3 cell"><!-- Sección izquierda -->
+        <div class="orbit" role="region" aria-label="Gimnasio" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+         <div class="orbit-wrapper">
+          <div class="orbit-controls">
+            <button class="orbit-previous"><span class="show-for-sr">Diapositiva anterior</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Siguiente diapositiva</span>&#9654;&#xFE0E;</button>
+          </div>
+          <ul class="orbit-container">
+            <li class="is-active orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image img-h" src="img/Modelos/chica1.jpg" alt="Space">
+                <figcaption class="orbit-caption">Texto</figcaption>
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image img-h" src="img/Modelos/chica2.jpg" alt="Space">
+                <figcaption class="orbit-caption">Texto</figcaption>
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image img-h" src="img/Modelos/chica3.png" alt="Space">
+                <figcaption class="orbit-caption">Texto</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <nav class="orbit-bullets">
+          <button class="is-active" data-slide="0"><span class="show-for-sr">Detalles de la primera diapositiva.</span><span class="show-for-sr">Diapositiva actual</span></button>
+          <button data-slide="1"><span class="show-for-sr">Detalles de la segunda diapositiva.</span></button>
+          <button data-slide="2"><span class="show-for-sr">Detalles de la primera diapositiva.</span></button>
+        </nav>
+      </div>
+    </section><!-- Sección izquierda -->
+
+    <main class="large-6 medium-6 cell"><!-- Sección principal -->
+
+    </main><!-- Sección principal -->
+
+    <section class="large-3 medium-3 cell"><!-- Sección derecha -->
+      <div class="orbit" role="region" aria-label="Gimnasio" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+        <div class="orbit-wrapper">
+          <div class="orbit-controls">
+            <button class="orbit-previous"><span class="show-for-sr">Diapositiva anterior</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Siguiente diapositiva</span>&#9654;&#xFE0E;</button>
+          </div>
+          <ul class="orbit-container">
+            <li class="is-active orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image img-h" src="img/Modelos/chico1.jpeg" alt="Space">
+                <figcaption class="orbit-caption">Texto</figcaption>
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image img-h" src="img/Modelos/chico2.jpg" alt="Space">
+                <figcaption class="orbit-caption">Texto</figcaption>
+              </figure>
+            </li>
+            <li class="orbit-slide">
+              <figure class="orbit-figure">
+                <img class="orbit-image img-h" src="img/Modelos/chico3.jpg" alt="Space">
+                <figcaption class="orbit-caption">Texto</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <nav class="orbit-bullets">
+          <button class="is-active" data-slide="0"><span class="show-for-sr">Detalles de la primera diapositiva.</span><span class="show-for-sr">Diapositiva actual</span></button>
+          <button data-slide="1"><span class="show-for-sr">Detalles de la primera diapositiva.</span></button>
+          <button data-slide="2"><span class="show-for-sr">Detalles de la tercera diapositiva.</span></button>
+        </nav>
+      </div>
+   </section><!-- Sección derecha -->
+  </div><!-- grid -->
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
